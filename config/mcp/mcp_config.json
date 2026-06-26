@@ -1,0 +1,10 @@
+{
+  "studioName": "MCP & Tool Integration Studio",
+  "version": "1.0.0",
+  "status": "operational",
+  "environment": "staging",
+  "config": {
+    "execution": "cat mcp_config.json",
+    "validation": "jq . mcp_config.json"
+  }
+}
